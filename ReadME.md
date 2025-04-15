@@ -23,3 +23,11 @@ This will both include pre-training and post-training of the model. And the comp
 # Dataset
 
 The Dataset we are using is [`Huggingface FineWeb`](https://huggingface.co/datasets/HuggingFaceFW/fineweb) sample-10BT, which around 10B gpt2 tokens (**27.6GB**)
+
+# Run the Code
+
+First, download dataset from huggingface and place it in the `data` folder. You can use the following command to download the dataset:
+
+```bash
+python prepare_data.py
+```
